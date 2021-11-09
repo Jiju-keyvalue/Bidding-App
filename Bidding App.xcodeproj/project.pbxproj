@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109E324DD9FF6D9985F15BAB /* Pods_Bidding_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD7FEB941626D1E43D0D64B /* Pods_Bidding_App.framework */; };
+		26071C8B27325EE500F3FB23 /* BidsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26071C8927325EE500F3FB23 /* BidsTableViewCell.swift */; };
+		26071C8C27325EE500F3FB23 /* BidsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26071C8A27325EE500F3FB23 /* BidsTableViewCell.xib */; };
+		261306AC272FEEB200806E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261306AB272FEEB200806E35 /* AppDelegate.swift */; };
+		261306AE272FEEB200806E35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261306AD272FEEB200806E35 /* SceneDelegate.swift */; };
+		261306B0272FEEB200806E35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261306AF272FEEB200806E35 /* ViewController.swift */; };
+		261306B3272FEEB200806E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261306B1272FEEB200806E35 /* Main.storyboard */; };
+		261306B5272FEEB400806E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261306B4272FEEB400806E35 /* Assets.xcassets */; };
+		261306B8272FEEB400806E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261306B6272FEEB400806E35 /* LaunchScreen.storyboard */; };
+		261531EE27304EEA0090188C /* wViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261531ED27304EEA0090188C /* wViewController.swift */; };
+		261531F027304FCA0090188C /* aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261531EF27304FCA0090188C /* aViewController.swift */; };
+		261531F42730E03E0090188C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261531F32730E03E0090188C /* HomeViewController.swift */; };
+		261531F62730E04E0090188C /* MyBidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261531F52730E04E0090188C /* MyBidsViewController.swift */; };
+		261531FB2730ECB70090188C /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261531F92730ECB70090188C /* SideMenuTableViewCell.swift */; };
+		261531FC2730ECB70090188C /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261531FA2730ECB70090188C /* SideMenuTableViewCell.xib */; };
+		261531FE2730EEFD0090188C /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261531FD2730EEFD0090188C /* MenuListController.swift */; };
+		2615320127310AE10090188C /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615320027310AE10090188C /* ProductCollectionViewCell.swift */; };
+		26153203273118810090188C /* AuctionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26153202273118810090188C /* AuctionDetailViewController.swift */; };
+		26153205273158320090188C /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26153204273158320090188C /* ProductModel.swift */; };
+		26CC405B2738E80F00BFA3A7 /* ItemModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26CC40592738E80F00BFA3A7 /* ItemModel.xcdatamodeld */; };
+		26CC40D5273964BA00BFA3A7 /* ProductItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC40D3273964BA00BFA3A7 /* ProductItem+CoreDataProperties.swift */; };
+		26CC40D6273964BA00BFA3A7 /* ProductItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC40D4273964BA00BFA3A7 /* ProductItem+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26071C8927325EE500F3FB23 /* BidsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidsTableViewCell.swift; sourceTree = "<group>"; };
+		26071C8A27325EE500F3FB23 /* BidsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BidsTableViewCell.xib; sourceTree = "<group>"; };
+		261306A8272FEEB200806E35 /* Bidding App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bidding App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261306AB272FEEB200806E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		261306AD272FEEB200806E35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		261306AF272FEEB200806E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		261306B2272FEEB200806E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261306B4272FEEB400806E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		261306B7272FEEB400806E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		261306B9272FEEB400806E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261531ED27304EEA0090188C /* wViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wViewController.swift; sourceTree = "<group>"; };
+		261531EF27304FCA0090188C /* aViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aViewController.swift; sourceTree = "<group>"; };
+		261531F32730E03E0090188C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		261531F52730E04E0090188C /* MyBidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBidsViewController.swift; sourceTree = "<group>"; };
+		261531F92730ECB70090188C /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		261531FA2730ECB70090188C /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		261531FD2730EEFD0090188C /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
+		2615320027310AE10090188C /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		26153202273118810090188C /* AuctionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionDetailViewController.swift; sourceTree = "<group>"; };
+		26153204273158320090188C /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		26CC405A2738E80F00BFA3A7 /* ItemModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ItemModel.xcdatamodel; sourceTree = "<group>"; };
+		26CC40D3273964BA00BFA3A7 /* ProductItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductItem+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		26CC40D4273964BA00BFA3A7 /* ProductItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		528DF5D6461A5ABA3C65C0D5 /* Pods-Bidding App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bidding App.release.xcconfig"; path = "Target Support Files/Pods-Bidding App/Pods-Bidding App.release.xcconfig"; sourceTree = "<group>"; };
+		DCD7FEB941626D1E43D0D64B /* Pods_Bidding_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bidding_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E237625AB1D0B4065BEBF298 /* Pods-Bidding App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bidding App.debug.xcconfig"; path = "Target Support Files/Pods-Bidding App/Pods-Bidding App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261306A5272FEEB200806E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E324DD9FF6D9985F15BAB /* Pods_Bidding_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26071C8627325E2500F3FB23 /* Auction Detail */ = {
+			isa = PBXGroup;
+			children = (
+				26153202273118810090188C /* AuctionDetailViewController.swift */,
+				26071C8927325EE500F3FB23 /* BidsTableViewCell.swift */,
+				26071C8A27325EE500F3FB23 /* BidsTableViewCell.xib */,
+			);
+			path = "Auction Detail";
+			sourceTree = "<group>";
+		};
+		26071C8727325E8400F3FB23 /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				26071C8627325E2500F3FB23 /* Auction Detail */,
+				261531F32730E03E0090188C /* HomeViewController.swift */,
+				2615320027310AE10090188C /* ProductCollectionViewCell.swift */,
+			);
+			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		26071C8827325E9D00F3FB23 /* My Bids Tab */ = {
+			isa = PBXGroup;
+			children = (
+				261531F52730E04E0090188C /* MyBidsViewController.swift */,
+			);
+			path = "My Bids Tab";
+			sourceTree = "<group>";
+		};
+		2613069F272FEEB200806E35 = {
+			isa = PBXGroup;
+			children = (
+				261306AA272FEEB200806E35 /* Bidding App */,
+				261306A9272FEEB200806E35 /* Products */,
+				E28BB89B1084E82DAFDD7D2C /* Pods */,
+				C98BDEFF14AADFF3475AA19A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		261306A9272FEEB200806E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261306A8272FEEB200806E35 /* Bidding App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261306AA272FEEB200806E35 /* Bidding App */ = {
+			isa = PBXGroup;
+			children = (
+				261306AB272FEEB200806E35 /* AppDelegate.swift */,
+				261306AD272FEEB200806E35 /* SceneDelegate.swift */,
+				261306AF272FEEB200806E35 /* ViewController.swift */,
+				261532062731589F0090188C /* Model */,
+				261306B1272FEEB200806E35 /* Main.storyboard */,
+				261531ED27304EEA0090188C /* wViewController.swift */,
+				261531EF27304FCA0090188C /* aViewController.swift */,
+				26071C8727325E8400F3FB23 /* Home Tab */,
+				26071C8827325E9D00F3FB23 /* My Bids Tab */,
+				261531FF2730EF8A0090188C /* Side Menu */,
+				261306B4272FEEB400806E35 /* Assets.xcassets */,
+				261306B6272FEEB400806E35 /* LaunchScreen.storyboard */,
+				261306B9272FEEB400806E35 /* Info.plist */,
+			);
+			path = "Bidding App";
+			sourceTree = "<group>";
+		};
+		261531FF2730EF8A0090188C /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				261531FD2730EEFD0090188C /* MenuListController.swift */,
+				261531FA2730ECB70090188C /* SideMenuTableViewCell.xib */,
+				261531F92730ECB70090188C /* SideMenuTableViewCell.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		261532062731589F0090188C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26CC40D4273964BA00BFA3A7 /* ProductItem+CoreDataClass.swift */,
+				26CC40D3273964BA00BFA3A7 /* ProductItem+CoreDataProperties.swift */,
+				26CC40592738E80F00BFA3A7 /* ItemModel.xcdatamodeld */,
+				26153204273158320090188C /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C98BDEFF14AADFF3475AA19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7FEB941626D1E43D0D64B /* Pods_Bidding_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28BB89B1084E82DAFDD7D2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E237625AB1D0B4065BEBF298 /* Pods-Bidding App.debug.xcconfig */,
+				528DF5D6461A5ABA3C65C0D5 /* Pods-Bidding App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261306A7272FEEB200806E35 /* Bidding App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261306BC272FEEB400806E35 /* Build configuration list for PBXNativeTarget "Bidding App" */;
+			buildPhases = (
+				0C1652729D9F1B04DB561F04 /* [CP] Check Pods Manifest.lock */,
+				261306A4272FEEB200806E35 /* Sources */,
+				261306A5272FEEB200806E35 /* Frameworks */,
+				261306A6272FEEB200806E35 /* Resources */,
+				81BA40970068597BF5264603 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bidding App";
+			productName = "Bidding App";
+			productReference = 261306A8272FEEB200806E35 /* Bidding App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261306A0272FEEB200806E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					261306A7272FEEB200806E35 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 261306A3272FEEB200806E35 /* Build configuration list for PBXProject "Bidding App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2613069F272FEEB200806E35;
+			productRefGroup = 261306A9272FEEB200806E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261306A7272FEEB200806E35 /* Bidding App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261306A6272FEEB200806E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261306B8272FEEB400806E35 /* LaunchScreen.storyboard in Resources */,
+				261306B5272FEEB400806E35 /* Assets.xcassets in Resources */,
+				261306B3272FEEB200806E35 /* Main.storyboard in Resources */,
+				26071C8C27325EE500F3FB23 /* BidsTableViewCell.xib in Resources */,
+				261531FC2730ECB70090188C /* SideMenuTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1652729D9F1B04DB561F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bidding App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BA40970068597BF5264603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bidding App/Pods-Bidding App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bidding App/Pods-Bidding App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bidding App/Pods-Bidding App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261306A4272FEEB200806E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261306B0272FEEB200806E35 /* ViewController.swift in Sources */,
+				26153203273118810090188C /* AuctionDetailViewController.swift in Sources */,
+				261306AC272FEEB200806E35 /* AppDelegate.swift in Sources */,
+				2615320127310AE10090188C /* ProductCollectionViewCell.swift in Sources */,
+				261531F027304FCA0090188C /* aViewController.swift in Sources */,
+				261531EE27304EEA0090188C /* wViewController.swift in Sources */,
+				261531F62730E04E0090188C /* MyBidsViewController.swift in Sources */,
+				26153205273158320090188C /* ProductModel.swift in Sources */,
+				261531FB2730ECB70090188C /* SideMenuTableViewCell.swift in Sources */,
+				261531F42730E03E0090188C /* HomeViewController.swift in Sources */,
+				26071C8B27325EE500F3FB23 /* BidsTableViewCell.swift in Sources */,
+				261306AE272FEEB200806E35 /* SceneDelegate.swift in Sources */,
+				26CC405B2738E80F00BFA3A7 /* ItemModel.xcdatamodeld in Sources */,
+				261531FE2730EEFD0090188C /* MenuListController.swift in Sources */,
+				26CC40D6273964BA00BFA3A7 /* ProductItem+CoreDataClass.swift in Sources */,
+				26CC40D5273964BA00BFA3A7 /* ProductItem+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		261306B1272FEEB200806E35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261306B2272FEEB200806E35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261306B6272FEEB400806E35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261306B7272FEEB400806E35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261306BA272FEEB400806E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		261306BB272FEEB400806E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261306BD272FEEB400806E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E237625AB1D0B4065BEBF298 /* Pods-Bidding App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Y55Z5V2F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bidding App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ji.Bidding-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		261306BE272FEEB400806E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528DF5D6461A5ABA3C65C0D5 /* Pods-Bidding App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Y55Z5V2F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bidding App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ji.Bidding-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261306A3272FEEB200806E35 /* Build configuration list for PBXProject "Bidding App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261306BA272FEEB400806E35 /* Debug */,
+				261306BB272FEEB400806E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261306BC272FEEB400806E35 /* Build configuration list for PBXNativeTarget "Bidding App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261306BD272FEEB400806E35 /* Debug */,
+				261306BE272FEEB400806E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26CC40592738E80F00BFA3A7 /* ItemModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26CC405A2738E80F00BFA3A7 /* ItemModel.xcdatamodel */,
+			);
+			currentVersion = 26CC405A2738E80F00BFA3A7 /* ItemModel.xcdatamodel */;
+			path = ItemModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 261306A0272FEEB200806E35 /* Project object */;
+}
